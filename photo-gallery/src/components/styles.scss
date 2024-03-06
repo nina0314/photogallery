@@ -1,0 +1,71 @@
+.title {
+  font-family: "Glacial Indifference", sans-serif;
+  font-size: 75px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+}
+
+.inputField {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.taskName {
+  border-radius: 20px;
+  height: 40px;
+  width: 350px;
+  background-color: #f79f95;
+  border-color: #f79f95;
+}
+
+.searchButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 50px;
+  padding: 0;
+  z-index: 10;
+  display: inline;
+  position: absolute;
+  right: 2px;
+  top: 12px;
+}
+
+.searchImage {
+  width: 20px;
+  height: 20px;
+}
+
+.searchButton2 {
+  border-radius: 20px;
+  display: flex;
+  margin-top: 20px;
+  background-color: #f7d6d0;
+  height: 40px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.keywordInput {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 90%;
+  height: 30px;
+  margin-top: 75px;
+  margin-left: 10px;
+}
+
+.description {
+  font-size: 10px;
+  color: #fcdcd8;
+}
