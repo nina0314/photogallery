@@ -1,15 +1,16 @@
 import React from "react";
 import "./styles.scss";
 import { UseDispatch, useSelector } from "react-redux";
-import { RootState } from "../state/store/store";
+import { AppDispatch, RootState } from "../state/store/store";
 import { findKeyword } from "../state/image/imageSlice";
 import { useDispatch } from "react-redux";
 import searchIcon from "../images/search.png";
 import logo from "../images/logo.png";
 
+
 const SearchForm = () => {
   const searchKey = useSelector((state: RootState) => state.image.value);
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // Update the keyword in the Redux store as the user types

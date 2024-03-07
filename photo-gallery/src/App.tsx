@@ -12,7 +12,9 @@ function App() {
         <div className="searchForm">
           <SearchForm />
         </div>
-        <div className="displayPhotos"></div>
+        <div className="displayPhotos">
+          <DisplayPhotos />
+        </div>
       </main>
     </div>
   );

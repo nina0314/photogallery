@@ -69,3 +69,51 @@
   font-size: 10px;
   color: #fcdcd8;
 }
+
+.photoGallery {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.photoGalleryImage {
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+
+.photoGalleryPadding {
+  height: 320px;
+  margin-left: 25px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: rgba(50, 12, 1, 0.6);
+}
+
+.photoGalleryPadding:hover {
+  transform: scale(1.1);
+}
+
+.photoGalleryDescription {
+  font-size: 10px;
+  color: white;
+  font-family: "Glacial Indifference", sans-serif;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  text-align: center;
+  width: 200px;
+  padding-left: 50px;
+  height: 30px;
+}
+
+.noImagesTitle {
+  font-family: "Glacial Indifference", sans-serif;
+  font-size: 55px;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 325px;
+}
