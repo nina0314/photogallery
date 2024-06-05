@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
 .title {
-  font-family: "Glacial Indifference", sans-serif;
+  font-family: "DM Serif Display", serif;
   font-size: 75px;
-  font-weight: lighter;
+  font-weight: 100;
+  font-style: italic;
   color: white;
   text-align: center;
 }
@@ -61,7 +64,7 @@
 .logo {
   width: 90%;
   height: 30px;
-  margin-top: 75px;
+  margin-top: 55px;
   margin-left: 10px;
 }
 
@@ -109,7 +112,8 @@
 }
 
 .noImagesTitle {
-  font-family: "Glacial Indifference", sans-serif;
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
   font-size: 55px;
   font-weight: lighter;
   color: black;

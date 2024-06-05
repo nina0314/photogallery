@@ -14,12 +14,12 @@ const SearchForm = () => {
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // Update the keyword in the Redux store as the user types
-    dispatch(findKeyword(e.target.value));
+    dispatch(findKeyword({keyword: e.target.value}));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    dispatch(findKeyword(searchKey));
+    dispatch(findKeyword({keyword: searchKey}));
   };
 
   return (
